@@ -1,0 +1,21 @@
+﻿<Window x:Class="about"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="about" Height="285" Width="391" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="White" Icon="Images/about.png" PreviewKeyUp="Window_PreviewKeyUp_1">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image Margin="160,30,160,0" Height="85" VerticalAlignment="Top" Source="Images/xbill.png" Stretch="None"/>
+        <Label Content="Dr.Mohammad@outlook.com " Margin="84,0,0,62" VerticalAlignment="Bottom" FontSize="14" FontFamily="Segoe Print" Height="35" Foreground="Red" HorizontalAlignment="Left" Width="217"/>
+        <TextBlock Text="Key Finder" Margin="160,135,0,0" VerticalAlignment="Top" FontSize="14" HorizontalAlignment="Left">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF00B9FF" Offset="1"/>
+                    <GradientStop Color="Lime"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <Button x:Name="Closes" Content="Close" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="90" Background="{x:Null}" Height="25" Click="Close_Click"/>
+    </Grid>
+</Window>
