@@ -11,10 +11,10 @@ Imports System.Windows
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("WpfApplication1")> 
+<Assembly: AssemblyTitle("Keyboard Capture")> 
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("WpfApplication1")> 
+<Assembly: AssemblyProduct("KeyboardCapture")> 
 <Assembly: AssemblyCopyright("Copyright ©  2014")> 
 <Assembly: AssemblyTrademark("")> 
 <Assembly: ComVisible(false)>

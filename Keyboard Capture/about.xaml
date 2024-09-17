@@ -8,7 +8,7 @@
         </Grid.ColumnDefinitions>
         <Image Margin="160,30,160,0" Height="85" VerticalAlignment="Top" Source="Images/xbill.png" Stretch="None"/>
         <Label Content="Dr.Mohammad@outlook.com " Margin="84,0,0,62" VerticalAlignment="Bottom" FontSize="14" FontFamily="Segoe Print" Height="35" Foreground="Red" HorizontalAlignment="Left" Width="217"/>
-        <TextBlock Text="Key Finder" Margin="160,135,0,0" VerticalAlignment="Top" FontSize="14" HorizontalAlignment="Left">
+        <TextBlock Text="Keyboard Capture" Margin="141,135,0,0" VerticalAlignment="Top" FontSize="14" HorizontalAlignment="Left">
             <TextBlock.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
                     <GradientStop Color="#FF00B9FF" Offset="1"/>
